@@ -1,9 +1,24 @@
-<<<<<<< HEAD
 /*Imports CSS*/
 
 @import './normalize.css';
 @import './grid.css';
 @import './fonts.css';
-=======
-@import './css/normalize';
->>>>>>> AULA_4
+body {
+    font-family: "LatoLight";
+}
+
+#header {
+    min-height: 55px;
+    height: 55px;
+    padding: 1em 0;
+}
+
+#header .nav {
+    text-align: right;
+}
+
+#header .nav a {
+    text-decoration: none;
+    padding: 0 1em;
+    color: #292929;
+}
