@@ -4,7 +4,7 @@
 @import './grid.css';
 @import './fonts.css';
 body {
-    font-family: "LatoLight";
+    font-family: "LatoBoldItalic"
 }
 
 #header {
@@ -21,4 +21,29 @@ body {
     text-decoration: none;
     padding: 0 1em;
     color: #292929;
+}
+
+#header .bg {
+    background: linear-gradient(#e9eef2, #e6ebef);
+    margin: 2em 0;
+    min-height: 400px;
+    text-align: center;
+}
+
+#header .bg h1 {
+    padding: 2em 0 0 0;
+    font-size: 3em;
+}
+
+.btn {
+    font-family: "LatoBold";
+    padding: 12px 15px;
+    border-radius: 30px;
+    background: #ececec;
+    text-decoration: none;
+}
+
+.btn.btn-blue {
+    background: blue;
+    color: #ececec;
 }
