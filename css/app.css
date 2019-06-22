@@ -3,13 +3,14 @@
 @import './normalize.css';
 @import './grid.css';
 @import './fonts.css';
+
 body {
     font-family: "LatoBoldItalic"
 }
 
+/*HEADER*/
+
 #header {
-    min-height: 55px;
-    height: 55px;
     padding: 1em 0;
 }
 
@@ -34,6 +35,40 @@ body {
     padding: 2em 0 0 0;
     font-size: 3em;
 }
+
+/*CONTENT*/
+
+.img-responsive {
+    max-width: 100%;
+}
+
+#content .title {
+    text-align: center;
+}
+
+#content h4 {
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+#content p {
+    padding: 1.5em;
+}
+
+#content .right {
+    float: right;
+    transform: scaleX(-1);
+}
+
+#content .right .text {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+}
+
+/*BUTTONS*/
 
 .btn {
     font-family: "LatoBold";
