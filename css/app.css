@@ -16,6 +16,7 @@ body {
 
 #header .nav {
     text-align: right;
+    color: #333333;
 }
 
 #header .nav a {
@@ -42,8 +43,13 @@ body {
     max-width: 100%;
 }
 
-#content .title {
-    text-align: center;
+#content {
+    padding: 0;
+}
+
+#content .bg h1 {
+    padding: 1.5em 0 0 0;
+    font-size: 3em;
 }
 
 #content h4 {
@@ -68,6 +74,55 @@ body {
     -o-transform: scaleX(-1);
 }
 
+/*CONTACT*/
+
+#contact {
+    background: darkgray;
+    padding: 4em;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    padding: 0.2em 0.5em;
+    border: 1px solid #cecece;
+    border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    -ms-border-radius: 0.2em;
+    -o-border-radius: 0.2em;
+}
+
+/*FOOTER*/
+#footer {
+    background: #333333;
+    color: #ffffff;
+    font-family: LatoItalic;
+
+}
+
+#footer .social {
+    text-align: right;
+    margin: 1em 0 0 0;
+
+}
+
+#footer .social a {
+    color: #ffffff;
+    padding: 0.8em;
+    text-decoration: none;
+}
+
+#footer .social a:hover {
+    text-decoration: underline;
+}
+
 /*BUTTONS*/
 
 .btn {
@@ -76,9 +131,22 @@ body {
     border-radius: 30px;
     background: #ececec;
     text-decoration: none;
+    border: 1px solid #ececec;
+}
+
+.btn.btn-block {
+    display: block;
+    width: 100%;
 }
 
 .btn.btn-blue {
     background: blue;
     color: #ececec;
+    border: 1px solid blue;
+}
+
+/*TITLES*/
+
+.title {
+    text-align: center;
 }
